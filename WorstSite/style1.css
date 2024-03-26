@@ -1,0 +1,261 @@
+#home {
+  background-color: #5e83e6;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#p1 {
+  background-color: #5ec7e6;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#p2 {
+  background-color: #e6c15e;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+table,
+td {
+  border: 20px solid #5e83e6;
+  border-collapse: collapse;
+  text-align: center;
+  width: 500px;
+  padding: 10px;
+  margin: 30px;
+  text-transform: uppercase;
+  font-size: large;
+  border-spacing: 30px;
+}
+
+td {
+  background-color: #5ee6c1;
+}
+
+h4 {
+  font-family: Garamond, serif;
+  font-style: italic;
+  color: #e65e83;
+  text-align: left;
+  margin: 10px;
+  font-size: 30px;
+}
+
+/* 
+https://www.w3schools.com/html/html_links_colors.asp*/
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a.button:link,
+a.button:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  margin: 5px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button:hover,
+a.button:active {
+  background-color: red;
+}
+
+.right {
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  border: 3px solid #73ad21;
+}
+
+.left {
+  float: left;
+  margin: 5px;
+  padding: 10px;
+  border: 3px solid #73ad21;
+}
+
+.borderimg1 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
+
+.borderimg2 {
+  border: 10px solid blue;
+  padding: 15px;
+  color: white;
+  background-color: black;
+  border-image: url(border.png) 20% round;
+}
+
+.clearfix {
+  overflow: auto;
+  border: 10px solid blue;
+  padding: 15px;
+  color: white;
+  background-color: black;
+  border-image: url(border.png) 20% round;
+}
+
+/* https://www.w3schools.com/css/css_positioning.asp
+*/
+
+.fixed1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73ad21;
+  color: red;
+  font-size: 40px;
+  background-color: white;
+  text-align: center;
+}
+
+.fixed2 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73ad21;
+  color: red;
+  font-size: 40px;
+  background-color: white;
+  text-align: center;
+}
+
+.fixed3 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  border: 3px solid #73ad21;
+  color: red;
+  font-size: 40px;
+  background-color: white;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+/*
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3 */
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 8px;
+  background-color: green;
+  max-width: min-content;
+  margin: auto;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 8px;
+  background-color: yellow;
+  margin: auto;
+}
+
+.ad {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 8px;
+  margin: auto;
+  text-align: center;
+}
+
+.div3 {
+  padding: 10px;
+  border: 3px solid red;
+  clear: left;
+  text-align: left;
+}
+
+.div4 {
+  padding: 10px;
+  border: 3px solid red;
+  clear: right;
+  text-align: right;
+}
+
+body {
+  overflow: auto;
+  width: 1150px;
+}
+
+div.absolute1 {
+  position: absolute;
+  top: 350px;
+  left: 210px;
+  width: 100px;
+  height: 20px;
+  color: white;
+}
+
+div.absolute2 {
+  position: absolute;
+  top: 540px;
+  left: 715px;
+  width: 100px;
+  height: 20px;
+  color: white;
+}
+
+div.absolute3 {
+  position: absolute;
+  top: 770px;
+  left: 190px;
+  width: 100px;
+  height: 20px;
+  color: black;
+}
+
+div.absolute4 {
+  position: absolute;
+  top: 860px;
+  left: 700px;
+  width: 200px;
+  height: 20px;
+  color: black;
+}
+
+div.relativeleft {
+  position: relative;
+  right: 30px;
+}
+
+div.relativeright {
+  position: relative;
+  left: 30px;
+}
+
+div.relativetop {
+  position: relative;
+  top: 100px;
+}

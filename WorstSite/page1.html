@@ -1,0 +1,201 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+    <meta charset="utf-8" />
+  </head>
+
+  <body id="p1">
+    <h1>Page 1</h1>
+
+    <table>
+      <tr>
+        <td>
+          <a href="index.html" target="_self" title="Go to Page 1"> Home </a>
+        </td>
+        <td>
+          <a href="page1.html" target="_self" title="Go to Page 2"> Page 1 </a>
+        </td>
+        <td>
+          <a href="page2.html" target="_self" title="Go to Page 3"> Page 2 </a>
+        </td>
+      </tr>
+    </table>
+
+    <div style="overflow: auto">
+      <div class="menu">
+        <a class="button" href="index.html" target="_self">HOME</a>
+        <a class="button" href="page1.html" target="_self">PAGE 1</a>
+        <a class="button" href="page2.html" target="_self">PAGE 2</a>
+
+        <div class="relativetop">
+          <img src="images\rotate.gif" alt="rotate" style="width: 150px" />
+        </div>
+      </div>
+
+      <div class="main">
+        <h2>More disgusting stuff</h2>
+
+        <p id="frankfurter" class="borderimg1">
+          <img
+            class="right"
+            src="data:image/jpeg;base64,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"
+            alt="Frankfurters in pickle juice jelly"
+            style="width: 250px"
+          />
+
+          <strong>Frankfurters</strong> in Pickle Juice - jelly involves placing
+          frankfurter sausages in a gelatinous mixture made from pickle juice.
+          The dish presents an unusual combination of flavors and textures.
+          Pickle juice, known for its sour and vinegary taste, is an
+          unconventional choice for creating jelly, and when combined with the
+          savory flavor of frankfurters, it creates a jarring contrast that can
+          be off-putting to the palate. Additionally, the gelatinous texture of
+          the jelly adds another layer of strangeness, making the dish visually
+          unappealing to some. Overall, the dish's unconventional ingredients
+          and flavor profile contribute to its reputation as a particularly
+          unappetizing culinary creation.
+        </p>
+        <div id="SPAM" class="clearfix">
+          <img
+            class="left"
+            src="https://cdn.thisiswhyimbroke.com/buying-guides-thumb/784/pumpkin-spice-spam_400x.jpg"
+            alt="Pumpkin spice Spam"
+            style="width: 250px"
+          />
+          <strong>Pumpkin spice SPAM </strong> - a limited-edition product
+          introduced by the company Hormel Foods, combining the flavors of the
+          iconic canned meat with pumpkin spice seasoning typically associated
+          with autumnal treats.
+        </div>
+
+        <p id="canned chicken" class="borderimg1">
+          <img
+            class="right"
+            src="https://i0.wp.com/www.michigandaily.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-18-at-8.41.39-PM-1.png?w=528&ssl=1"
+            alt="Canned whole chicken"
+            style="width: 250px"
+          />
+          <strong>Canned whole chicken </strong> - a pre-cooked chicken that has
+          been processed and sealed in a can for preservation. The entire
+          chicken, including bones, skin, and meat, is canned together,
+          resulting in a ready-to-eat product that can be stored for an extended
+          period. The texture of the chicken can become mushy and unappealing
+          after being processed and canned, lacking the freshness and tenderness
+          of freshly cooked chicken. Additionally, the canning process can
+          impart a metallic taste to the chicken, further diminishing its
+          flavor. Moreover, the sight of a whole chicken packed into a can can
+          be visually unappealing to some, contributing to its reputation as a
+          less-than-appetizing food option.
+        </p>
+      </div>
+
+      <div class="ad">
+        <h2>Advertisement</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        <p><img src="images\pots.gif" alt="pot" style="width: 150px" /></p>
+        <p>$30</p>
+        <p>
+          <img
+            src="images\accessories.gif"
+            alt="accessories"
+            style="width: 150px"
+          />
+        </p>
+        <p>$30</p>
+
+        <p>Click the button to go to win a prize.</p>
+        <button onclick="myFunction2()">Click here</button>
+        <script>
+          function myFunction2() {
+            alert("Try again! Have a nice day!");
+          }
+        </script>
+      </div>
+    </div>
+
+    <div
+      style="
+        background-color: #e5e5e5;
+        text-align: center;
+        padding: 10px;
+        margin-top: 7px;
+      "
+    >
+      More advertisement
+    </div>
+
+    <div style="text-align: center">
+      <img src="images\canopener.jpg" alt="can opener" style="width: 150px" />
+      <img src="images\colander.jpg" alt="colander" style="width: 150px" />
+      <img src="images\blender.jpg" alt="blender" style="width: 150px" />
+      <img
+        src="images\cuttingboard.jpg"
+        alt="cutting board"
+        style="width: 150px"
+      />
+      <img src="images\pot.jpg" alt="pots" style="width: 150px" />
+      <img src="images\kettle.png" alt="kettle" style="width: 150px" />
+      <img src="images\masher.jpg" alt="potato masher" style="width: 150px" />
+    </div>
+
+    <div
+      style="
+        background-color: #e5e5e5;
+        text-align: center;
+        padding: 10px;
+        margin-top: 7px;
+      "
+    >
+      <ul>
+        <li><a href="index.html#natto" target="_self">Natto</a></li>
+        |
+        <li>
+          <a href="index.html#surströmming" target="_self">Surströmming</a>
+        </li>
+        |
+        <li><a href="index.html#trifle" target="_self">English Trifle</a></li>
+        |
+        <li>
+          <a href="index.html#xmas tinner" target="_self">Christmas Tinner</a>
+        </li>
+        |
+        <li>
+          <a href="page1.html#frankfurter" target="_self"
+            >Frankfurters in Pickle Juice</a
+          >
+        </li>
+        |
+        <li><a href="page1.html#SPAM" target="_self">Pumpkin spice SPAM</a></li>
+        |
+        <li>
+          <a href="page1.html#canned chicken" target="_self"
+            >Canned Whole Chicken</a
+          >
+        </li>
+        |
+        <li>
+          <a href="page2.html#pickle" target="_self">Pickle Juice Soda</a>
+        </li>
+        |
+        <li><a href="page2.html#ketchup" target="_self">Ketchup Soda</a></li>
+        |
+        <li><a href="page2.html#butter" target="_self">Butter Soda</a></li>
+        |
+        <li>
+          <a href="page2.html#beef jerky" target="_self"
+            >Teriyaki Beef Jerky Soda</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="fixed2">Become a Member!</div>
+
+    <!-- https://www.w3schools.com/tags/att_video_autoplay.asp -->
+
+    <video width="320" height="240" controls autoplay>
+      <source src="bbc.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </body>
+</html>
